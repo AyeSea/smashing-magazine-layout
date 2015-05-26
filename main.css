@@ -1,0 +1,231 @@
+/* Clearfix */
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/* Header */
+
+#logo {
+	border: 1px solid green;
+	width: 8%;
+	display: inline-block;
+	margin: 25px 15px;
+}
+
+/* Network Sidebar */
+
+.network-sidebar {
+	float: left;
+	width: 10%;
+}
+
+#network-menu {
+	border: 1px solid green;
+	height: 414px;
+}
+
+#network-menu li {
+	border: 1px dashed red;
+	width: 100%;
+	height: 16.66%;
+}
+
+/* Main Content */
+
+.main-content {
+	border: 5px solid purple;
+	float: left;
+	width: 66.46%;
+}
+
+/* Main Content - Site Index */
+
+.site-index {
+	border: 1px solid red;
+	float: left;
+	width: 20.45%;
+}
+
+.site-index > h1 {
+	border: 1px double purple;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#topic-list {
+	border: 1px dashed green;
+	width: 100%;
+	height: 212px;
+}
+
+#topic-list > li {
+	background: #e2e2e2;
+	border: 1px solid blue;
+	margin: 7.5% 0;
+	height: 20px;
+}
+
+/* Main Content - Articles */
+
+.latest-articles {
+	border: 2px dashed blue;
+	float: left;
+	width: 79.5%;
+}
+
+.latest-articles > article {
+	border: 1px solid red;
+	padding-left: 12.5%;
+	padding-right: 10%;
+	height: 450px;
+}
+
+/* Featured Sidebar */
+
+.featured-sidebar {
+	border: 1px solid orange;
+	float: left;
+	width: 23.54%;
+	padding-left: 1%;
+}
+
+/* Featured Sidebar - Search & Subscribe */
+
+.type-and-submit {
+	border: 1px solid green;
+	width: 95%;
+	height: 65px;
+}
+
+.type-and-submit > h1 {
+	border: 1px dashed blue;
+	width: 100%;
+	height: 50%;
+	background-color: #e2e2e2;
+}
+
+#text-input {
+	width: 76.5%;
+	height: 50%;
+	display: inline-block;
+	background: green;
+}
+
+#submit-button {
+	width: 22.5%;
+	height: 50%;
+	display: inline-block;
+	background: blue;
+}
+
+/* Featured Sidebar - Small Ads */
+
+.featured-ads-small {
+	border: 1px solid blue;
+	margin:20px 0;
+	width: 95%;
+	padding-left: 3.5%;
+}
+
+.featured-ads-small li {
+	display: inline-block;
+	background-color: gray;
+	width: 47.5%;
+	height: 125px;
+	margin-top: 35px;
+}
+
+/* Featured Sidebar - Books */
+.featured-books {
+	margin-top: 50px;
+}
+
+.featured-books li {
+	display: block;
+	width: 100%;
+	height: 300px;
+	background-color: #eee;
+	border: 1px solid red;
+}
+
+.book-image {
+	border: 1px solid green;
+	display: inline-block;
+	vertical-align: middle;
+	height: 45%;
+	width: 25%;
+	margin: 5% 0 5% 5%;
+}
+
+.book-recommendation {
+	border: 1px solid blue;
+	margin: 5% 0 5% 5%;
+	display: inline-block;
+	vertical-align: top;
+	height: 80%;
+	width: 55%;
+}
+
+/* Featured Sidebar - Small Ads */
+
+.featured-ads-large {
+	border: 1px solid blue;
+	margin-top: 20px;
+	width: 95%;
+	padding-left: 2.5%;
+}
+
+.featured-ads-large li {
+	display: block;
+	background-color: gray;
+	width: 97.5%;
+	height: 200px;
+	margin-top: 5px;
+}
+
+/* Footer */
+
+footer {
+	margin-top: 50px;
+	border: 1px solid green;
+	width: 66.46%;
+	margin-left: 10%;
+}
+
+/* Footer - Footer Features */
+
+.footer-features {
+	width: 95%;
+	margin: 0 auto;
+	border: 1px solid red;
+
+}
+
+.footer-features li {
+	display: inline-block;
+	border: 1px solid blue;
+	width: 30%;
+	margin-right: 3%;
+	height: 125px;
+}
+
+.footer-features li > .book-image {
+	height: 75%
+}
+
+/* Footer - Footer Main */
+.footer-main {
+	width: 100%;
+	border: 1px solid orange;
+	height: 100px;
+}
